@@ -1,0 +1,28 @@
+.footer {
+  background: #d21c29;
+  height: 178px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 40px;
+  padding-top: 20px;
+}
+.footer .nav-url a {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.footer .nav-url .select {
+  color: #fff;
+}
+.footer .contact {
+  line-height: 30px;
+}
+.footer .copyright {
+  line-height: 60px;
+}
+.footer a:link {
+  color: #000;
+}
+.footer a:visited {
+  color: #000;
+}

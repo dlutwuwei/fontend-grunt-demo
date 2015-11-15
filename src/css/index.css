@@ -1,0 +1,234 @@
+.wrap {
+  width: 1170px;
+  margin: auto;
+}
+.nav {
+  height: 74px;
+}
+.nav .logo {
+  width: 215px;
+  height: 74px;
+  float: left;
+  background: url('../imgs/logo.png') no-repeat center center;
+}
+.nav .nav-list {
+  margin-top: 22px;
+  line-height: 28px;
+  font-size: 14px;
+  float: right;
+  vertical-align: middle;
+}
+.nav .nav-list .group li {
+  float: left;
+  margin-left: 32px;
+}
+.nav .nav-list .group .select {
+  border-bottom: 2px #d21c29 solid;
+}
+.nav .nav-list a:link {
+  color: #000;
+}
+.nav .nav-list a:visited {
+  color: #000;
+}
+.nav .nav-list a:hover {
+  color: #C81623;
+}
+.main .slider {
+  text-align: center;
+}
+.main .slider .slider-panel {
+  display: none;
+}
+.main .slider .show {
+  display: block;
+}
+.main .slider .slider-nav {
+  font-size: 12px;
+  text-align: center;
+  height: 70px;
+}
+.main .slider .slider-nav .item {
+  width: 34px;
+  display: inline-block;
+  margin-top: 12px;
+  color: #b5b5b5;
+}
+.main .slider .slider-nav .select {
+  color: #d21c29;
+}
+.main .banner {
+  height: 40px;
+  margin-bottom: 40px;
+}
+.main .banner .title {
+  text-align: center;
+  width: 144px;
+  height: 40px;
+  float: left;
+  font-size: 24px;
+  line-height: 40px;
+  background: #d21c29;
+  color: #fff;
+  padding-left: 40px;
+  position: relative;
+}
+.main .banner .title:before {
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background: #000;
+  color: #fff;
+}
+.main .banner .sub {
+  font-size: 12px;
+  float: left;
+  width: 468px;
+  line-height: 20px;
+  padding-left: 5px;
+}
+.main .banner .mr {
+  font-size: 12px;
+  line-height: 40px;
+  float: right;
+}
+.main .service-list {
+  margin-bottom: 35px;
+}
+.main .service-list .service {
+  float: left;
+  height: 200px;
+  width: 270px;
+  padding-right: 30px;
+  position: relative;
+}
+.main .service-list .service span {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: 10;
+  background: #c81623;
+  opacity: 0.67;
+  color: #fff;
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px #c81623 solid;
+}
+.main .service-list .last {
+  padding-right: 0;
+  float: right;
+}
+.main .service-list .cover {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 270px;
+  height: 100%;
+  line-height: 200px;
+  text-align: center;
+  background: rgba(220, 22, 35, 0.6);
+}
+.main .service-list .cover:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 120px;
+  left: 113px;
+  width: 42px;
+  height: 41px;
+  background: url('../imgs/arrow.png');
+}
+.main .service-list a:link {
+  color: #fff;
+  font-size: 24px;
+}
+.main .service-list a:visited {
+  color: #fff;
+}
+.main .side {
+  margin-bottom: 85px;
+}
+.main .side .title {
+  color: #d21c29;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+}
+.main .side .title a {
+  float: right;
+  font-size: 12px;
+  color: black;
+  font-weight: normal;
+}
+.main .side .title:before {
+  color: #000;
+  padding-right: 10px;
+  font-size: 20px;
+  line-height: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.main .side-left {
+  float: left;
+  width: 570px;
+}
+.main .side-left .content {
+  background: url('../imgs/new-back.png') no-repeat center center;
+}
+.main .side-left .text-list {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 0 20px 10px;
+}
+.main .side-left .text-list .text {
+  font-size: 16px;
+  color: #fff;
+  height: 42px;
+  line-height: 42px;
+}
+.main .side-left .text-list .text:before {
+  content: "●";
+  font-size: 12px;
+  padding-right: 10px;
+  height: 42px;
+  line-height: 42px;
+  display: inline-block;
+}
+.main .side-left .text-list a:link {
+  color: #fff;
+}
+.main .side-left .text-list a:visited {
+  color: #fff;
+}
+.main .side-right {
+  float: right;
+  width: 585px;
+}
+.main .side-right .news-item .news-title {
+  font-size: 16px;
+  line-height: 27px;
+}
+.main .side-right .news-item .news-content {
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+}
+.main .side-right .split {
+  margin: 13px 0;
+  border-bottom: 1px dashed #666;
+}
+.main .side-right a:link {
+  color: black;
+}
+.main .side-right a:visited {
+  color: black;
+}
+.main .floor:after {
+  content: '';
+  display: block;
+  clear: both;
+}
