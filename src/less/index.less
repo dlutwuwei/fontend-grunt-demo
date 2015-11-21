@@ -2,7 +2,6 @@
 	width: 1170px;
 	margin: auto;
 }
-
 .nav{
 	height: 74px;
 	.logo{
@@ -26,44 +25,23 @@
 				border-bottom: 2px #d21c29 solid;
 			}
 		}
-		a:link{
-			color: #000;
-		}
-		a:visited{
-			color: #000;
-		}
-		a:hover{
-			color: #C81623;
-		}
+		
 	}
 }
 
+
+
 .main{
 	.slider{
+		position: relative;
 		text-align: center;
-		.inner{
-			
-		}
 		.slider-panel{
 			display: none;
 		}
-		.show{
+		.active{
 			display: block;
 		}
-		.slider-nav{
-			font-size: 12px;
-			text-align: center;
-			height: 70px;
-			.item{
-				width: 34px;
-				display: inline-block;
-				margin-top: 12px;
-				color: #b5b5b5;
-			}
-			.select{
-				color: #d21c29;
-			}
-		}
+
 	}
 	.banner{
 		height: 40px;
@@ -143,23 +121,15 @@
 			background: rgba(220,22,35, 0.6);
 		}
 		.cover:before{
-			content: "";
-			display: block;
-			position: absolute;
-			top:120px;
-			left:113px;
+			display: inline-block;
 			width: 42px;
 			height: 41px;
-			background: url('../imgs/arrow.png')
+			font-size: 42px;
+			line-height: 200px;
 		}
-		a:link{
-			color: #fff;
-			font-size: 24px;
+		a{
+			color: #fff!important;
 		}
-		a:visited{
-			color: #fff;
-		}
-
 	}
 	.side{
 		margin-bottom: 85px;
@@ -171,7 +141,6 @@
 			a{
 				float: right;
 				font-size: 12px;
-				color: black;
 				font-weight: normal;
 			}
 		}
@@ -231,18 +200,14 @@
 			.news-content{
 				font-size: 12px;
 				line-height: 20px;
+				height: 40px;
 				color: #666;
+				overflow:hidden;
 			}
 		}
 		.split{
 			margin:13px 0;
 			border-bottom: 1px dashed #666;
-		}
-		a:link{
-			color: black;
-		}
-		a:visited{
-			color: black;
 		}
 	}
 	.floor:after{
@@ -250,5 +215,36 @@
 		display: block;
 		clear: both;
 	}
-
+	a:link{
+		color: #333;
+	}
+	a:visited{
+		color: #333;
+	}
 }
+
+
+.slidesjs-pagination {
+	height: 40px;
+	padding-top: 20px;
+	font-size: 0;
+	z-index: 10;
+	li{
+		height: 8px;
+		width: 8px;
+		padding-right: 20px;
+		display: inline-block;
+	}
+	a{
+		display: block;
+		height: 8px;
+		width: 8px;
+		background-color: #b5b5b5;
+		border-radius: 4px;
+		margin-right: 20px;	
+	}
+	a.active{
+		background-color: #d21c29;
+	}
+}
+

@@ -25,37 +25,15 @@
 .nav .nav-list .group .select {
   border-bottom: 2px #d21c29 solid;
 }
-.nav .nav-list a:link {
-  color: #000;
-}
-.nav .nav-list a:visited {
-  color: #000;
-}
-.nav .nav-list a:hover {
-  color: #C81623;
-}
 .main .slider {
+  position: relative;
   text-align: center;
 }
 .main .slider .slider-panel {
   display: none;
 }
-.main .slider .show {
+.main .slider .active {
   display: block;
-}
-.main .slider .slider-nav {
-  font-size: 12px;
-  text-align: center;
-  height: 70px;
-}
-.main .slider .slider-nav .item {
-  width: 34px;
-  display: inline-block;
-  margin-top: 12px;
-  color: #b5b5b5;
-}
-.main .slider .slider-nav .select {
-  color: #d21c29;
 }
 .main .banner {
   height: 40px;
@@ -134,21 +112,14 @@
   background: rgba(220, 22, 35, 0.6);
 }
 .main .service-list .cover:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 120px;
-  left: 113px;
+  display: inline-block;
   width: 42px;
   height: 41px;
-  background: url('../imgs/arrow.png');
+  font-size: 42px;
+  line-height: 200px;
 }
-.main .service-list a:link {
-  color: #fff;
-  font-size: 24px;
-}
-.main .service-list a:visited {
-  color: #fff;
+.main .service-list a {
+  color: #fff!important;
 }
 .main .side {
   margin-bottom: 85px;
@@ -162,7 +133,6 @@
 .main .side .title a {
   float: right;
   font-size: 12px;
-  color: black;
   font-weight: normal;
 }
 .main .side .title:before {
@@ -215,20 +185,45 @@
 .main .side-right .news-item .news-content {
   font-size: 12px;
   line-height: 20px;
+  height: 40px;
   color: #666;
+  overflow: hidden;
 }
 .main .side-right .split {
   margin: 13px 0;
   border-bottom: 1px dashed #666;
 }
-.main .side-right a:link {
-  color: black;
-}
-.main .side-right a:visited {
-  color: black;
-}
 .main .floor:after {
   content: '';
   display: block;
   clear: both;
+}
+.main a:link {
+  color: #333;
+}
+.main a:visited {
+  color: #333;
+}
+.slidesjs-pagination {
+  height: 40px;
+  padding-top: 20px;
+  font-size: 0;
+  z-index: 10;
+}
+.slidesjs-pagination li {
+  height: 8px;
+  width: 8px;
+  padding-right: 20px;
+  display: inline-block;
+}
+.slidesjs-pagination a {
+  display: block;
+  height: 8px;
+  width: 8px;
+  background-color: #b5b5b5;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+.slidesjs-pagination a.active {
+  background-color: #d21c29;
 }
