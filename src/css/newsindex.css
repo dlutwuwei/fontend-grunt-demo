@@ -1,0 +1,44 @@
+.focus {
+  display: inline-block;
+  width: 770px;
+  margin-top: 20px;
+}
+.focus .left {
+  display: inline-block;
+  height: 260px;
+  width: 254px;
+  background-color: #d21c29;
+}
+.focus .left .title {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 90px;
+}
+.focus .left .content {
+  font-size: 12px;
+  color: #fff;
+  padding: 0 25px;
+  line-height: 25px;
+  height: 125px;
+}
+.focus .left .dots {
+  margin-left: 25px;
+}
+.focus .left .dots li {
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+.focus .left .dots .selected {
+  background-color: #fff;
+}
+.focus .right {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -5px;
+  /*chrom 间隔4px, safri 3px*/
+}

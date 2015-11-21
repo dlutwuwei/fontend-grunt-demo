@@ -1,0 +1,49 @@
+.main .left {
+  width: 770px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.main .left h1 {
+  font-weight: normal;
+  font-size: 20px;
+  color: #d21c29;
+  line-height: 20px;
+  padding-bottom: 14px;
+}
+.main .left .head {
+  margin-bottom: 20px;
+}
+.main .left .head .title {
+  color: #333;
+  font-size: 24px;
+  line-height: 36px;
+}
+.main .left .head .date {
+  font-size: 12px;
+  color: #666;
+}
+.main .left .head .rtimes {
+  font-size: 12px;
+  color: #666;
+  margin-left: 20px;
+}
+.main .left .content p {
+  text-indent: 20px;
+  font-size: 14px;
+  color: #333;
+  line-height: 26px;
+}
+.main .left .foot {
+  margin-top: 80px;
+  font-size: 12px;
+  text-align: right;
+  color: #333;
+}
+.main .left .foot a:link {
+  color: #666;
+}
+.main .right {
+  display: inline-block;
+  vertical-align: top;
+  width: 370px;
+}

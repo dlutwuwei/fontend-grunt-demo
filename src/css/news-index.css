@@ -1,0 +1,70 @@
+.focus {
+  display: inline-block;
+  width: 770px;
+  margin-top: 20px;
+  position: relative;
+}
+.focus .panel {
+  position: relative;
+}
+.focus .panel .cover {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 770px;
+  height: 260px;
+}
+.focus .active {
+  display: block;
+}
+.focus .left {
+  display: inline-block;
+  height: 260px;
+  width: 254px;
+  background-color: #d21c29;
+}
+.focus .left .title {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 90px;
+}
+.focus .left .content {
+  font-size: 12px;
+  color: #fff;
+  padding: 0 25px;
+  line-height: 25px;
+  height: 125px;
+}
+.focus .right {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -5px;
+  /*chrom 间隔4px, safri 3px*/
+}
+.slidesjs-pagination {
+  position: absolute;
+  left: 25px;
+  bottom: 20px;
+  height: 10px;
+  font-size: 0;
+  z-index: 10;
+}
+.slidesjs-pagination li {
+  height: 6px;
+  width: 6px;
+  padding-right: 20px;
+  display: inline-block;
+}
+.slidesjs-pagination a {
+  display: block;
+  height: 6px;
+  width: 6px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+.slidesjs-pagination a.active {
+  background-color: #fff;
+}
