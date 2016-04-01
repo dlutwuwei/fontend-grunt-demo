@@ -106,6 +106,6 @@ module.exports = function(grunt) {
 
 
 	// 默认执行的任务.
-	grunt.registerTask('dev', ['less', 'cssmin', 'includes','connect','watch']);
+	grunt.registerTask('dev', ['less', 'cssmin', 'uglify','includes','connect','watch']);
 
 }

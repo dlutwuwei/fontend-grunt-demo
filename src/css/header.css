@@ -4,6 +4,7 @@
 }
 .header {
   min-width: 1000px;
+  background-color: #fff;
 }
 .header li a {
   display: inline-block;
@@ -42,6 +43,7 @@
 .header .content .left {
   float: left;
   width: 396px;
+  margin-top: 10px;
 }
 .header .content .right {
   float: right;
@@ -171,6 +173,7 @@ var {
 }
 body {
   font-family: "Microsoft Yahei", "黑体", sans-serif;
+  background: #ededed;
 }
 ul,
 ol {
